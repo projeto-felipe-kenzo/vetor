@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num = [3,6,9]
+        console.log(num) //ver a variavel
+        console.log(typeof(num)) //que tipo é
+        console.log(num[1])//mostrar o número que está na posição 1
+        num.push(12)//adicionar um numero na posição final da variavel/vetor
+        console.log(num)
+        console.log('Tamanho do vetor ->', num.length)//mostrar o tamanho do vetor
+        
+        var teste = [5,8,4]
+        console.log(teste)
+        console.log(teste.sort()) //ordena em ordem crescente
+        console.log(teste)
+
+        var tam = teste.length
+
+        for (var i=0; i< tam; i++){
+            console.log('Posição i = ',i,'valor=',teste[i])
+        }
+
+        for (var i in teste){
+            console.log('Posição i= ',i,'valor =', teste[i])
+        }
+    </script>
+
+</body>
+</html>
